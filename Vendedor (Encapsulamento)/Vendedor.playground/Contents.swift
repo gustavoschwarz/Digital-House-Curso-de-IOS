@@ -10,22 +10,22 @@ import UIKit
 //- Cada boné custa 50 reais, e para cada 2 bonés vendidos, o terceiro é grátis, logo não haverá lucro.
 //- Encapsule todos os métodos necessários.
 //- O vendedor é o dono da loja
-class Produto{}
-class Terno: Produto {
+
+class Terno {
     private var preco: Float = 400.00
     public func getPreco() -> Float {
         return self.preco
     }
 }
 
-class Vestido: Produto {
+class Vestido {
     private var preco: Float = 900.00
     public func getPreco() -> Float {
         return self.preco
     }
 }
 
-class Bone: Produto {
+class Bone {
     private var preco: Float = 50.00
     public func getPreco() -> Float {
         return self.preco
